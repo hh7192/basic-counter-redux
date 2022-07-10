@@ -7,6 +7,7 @@ import storeNew from "./store/indexNew";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  // <Provider store={store}>
   <Provider store={storeNew}>
     <React.StrictMode>
       <App />
